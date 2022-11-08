@@ -10,12 +10,14 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 
 # Create Accumulator Variable
 total_votes = 0 
-candidate_options = []
+candidate_options = [] # decalre unique candidate options
+candidate_votes = {} # declare an empty dictionary for tallying votes
+
 
 # Open the election results and read the file.
 with open(file_to_load) as election_data:
 
-    # To do: read and analyze the data here.
+    # Read and analyze the data here.
 
     # Read the file object with the reader function.
     file_reader = csv.reader(election_data)
@@ -37,6 +39,12 @@ with open(file_to_load) as election_data:
             
             # Add it to the list of candidates.
             candidate_options.append(candidate_name)
+
+            # Begin tracking that candidate's vote count.
+            candidate_votes[candidate_name] = 0
+            
+        # Add a vote to that candidate's count.
+        candidate_votes[candidate_name] += 1
     
     # Print total votes
-    print(candidate_options)
+    print(candidate_votes)
