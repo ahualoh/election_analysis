@@ -16,17 +16,19 @@ The Colorado Board of Elections is aduting an election for the US Congressional 
 - Software: Python 3.9.12
 
 ## Summary
-The analysis of the election shows the following results (see "[election_analysis.txt](https://github.com/ahualoh/election_analysis/blob/main/analysis/election_analysis.txt)"
+The analysis of the election shows the following results (see "[election_analysis.txt](https://github.com/ahualoh/election_analysis/blob/main/analysis/election_analysis.txt)":
 
-> Election Results
-> -------------------------
-> Total Votes: 369,711
-> -------------------------
-> Charles Casper Stockham: 23.0% (85,213)
-> Diana DeGette: 73.8% (272,892)
-> Raymon Anthony Doane: 3.1% (11,606)
-> -------------------------
-> Winner: Diana DeGette
-> Winning Vote Count: 272,892
-> Winning Percentage: 73.8%
-> -------------------------
+``` 
+Election Results
+-------------------------
+Total Votes: 369,711
+-------------------------
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
+```
